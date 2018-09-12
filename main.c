@@ -4,7 +4,7 @@ double soma(double x, double y){
 }
 
 double sub (double x, double y){
-	return o;
+	return x-y;
 }
 int main(){
 	return 0;
