@@ -14,6 +14,16 @@ double div(double x, double y){
 }
 
 int main(){
-	return 0;
+	int x,y,op;
+	printf("digite um numero para x e outro para y: ");
+	scanf("%d %d",&x,&y);	
+	printf("\nDigite uma operação:\n
+		1 - soma\n
+		2 - subtraçao\n
+		3 - multiplicacao\n
+		4 - divisao\n");
+	scanf ("%i",&op);
+	return 0;	
+			
 }
 
